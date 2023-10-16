@@ -15,7 +15,7 @@ def cal_score(product_info, weight_list):
 
 
 
-data = pd.read_csv("sample_product.csv")
+data = pd.read_csv("data/sample_product.csv")
 print(data)
 user_input = [1, 3, 2, 5, 6, 4]
 #웹이나 앱을 통해 유저 입력 받을 예정
