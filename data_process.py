@@ -7,9 +7,11 @@ rdr = csv.reader(f)
 rdr = list(rdr)
 rdr[0].append("co2")
 rdr[0].append("organic")
+rdr[0].append("score")
 for i in range(1, len(rdr)):
     rdr[i].append(random.randint(5, 20))
     rdr[i].append(random.randint(0, 4))
+    rdr[i].append(0)
 f.close()
 
 
